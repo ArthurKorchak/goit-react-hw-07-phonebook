@@ -1,6 +1,7 @@
 import { InputForm } from './InputForm/InputForm';
 import { ContactsList } from './ContactsList/ContactsList';
 import { Filter } from './Filter/Filter';
+import { Loader } from './Loader/Loader';
 import s from './App.module.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <h2>Contacts</h2>
       <Filter />
       <ContactsList />
+      <Loader />
     </div>
   );
 }
